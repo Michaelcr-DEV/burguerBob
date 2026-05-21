@@ -1,0 +1,28 @@
+#titulo{
+    color:coral;
+    text-align: center;
+}
+#titulo:hover{
+    color: purple;
+    font-size: 50px;
+    cursor: pointer; 
+}
+#titulo:active{
+    color:blue ;
+    transform: translateY(3px);
+}
+#titulo2{
+    color: blueviolet;
+    text-align: center;
+}
+
+#imagenHamburguesa{
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
+#titulo2:target {
+    color: red;
+}
+
